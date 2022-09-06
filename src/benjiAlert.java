@@ -1,3 +1,5 @@
+package src;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -6,7 +8,7 @@ public class benjiAlert extends Canvas{
     public static void main(String[] args){
 
         Toolkit tooltest = Toolkit.getDefaultToolkit();
-        Image benji = tooltest.getImage("IMG_2765.JPG");
+        Image benji = tooltest.getImage("src/IMG_2765.JPG");
 
         ImageIcon imgBen = new ImageIcon(benji);
         JFrame test = new JFrame("Benji Alert");
